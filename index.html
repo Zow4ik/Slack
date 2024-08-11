@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="styles/styles.css">
+   <title>Document</title>
+</head>
+<body>
+   <header class="header">
+      <div class="header__container container">
+         <nav class="header__menu hidden-mobile">
+            <ul class="header__menu-list">
+               <li class="header__menu-item">
+                  <a target="_blank" href="#" class="header__menu-link">Product</a>
+               </li>
+               <li class="header__menu-item">
+                  <a target="_blank" href="#" class="header__menu-link">Solutions</a>
+               </li>
+               <li class="header__menu-item">
+                  <a target="_blank" href="#" class="header__menu-link">Enterprise</a>
+               </li>
+               <li class="header__menu-item">
+                  <a target="_blank" href="#" class="header__menu-link">Resources</a>
+               </li>
+               <li class="header__menu-item">
+                  <a target="_blank" href="#" class="header__menu-link">Pricing</a>
+               </li>
+            </ul>
+         </nav>
+         <button 
+            onclick="burgerMenu.showModal()" 
+            type="button" 
+            class="header__burger-menu visible-mobile">
+            <span class="visually-hidden">open navigation menu</span>
+         </button>
+         <button type="button" class="header__account">Sign in</button>
+         <a target="_blank" href="#" class="header__link">Try for free</a>
+      </div>
+   </header>
+   <main class="content">
+      <section class="section bg-purple">
+         <div class="section__body container">
+            <div class="welcome">
+               <div class="welcome__body">
+                  <h1 class="welcome__title">Great teamwork starts with a</h1>
+                  <p class="welcome__text">
+                     With all your people, tools and communication in one
+                     place, you can work faster and more flexibly than ever before.
+                  </p>
+                  <div class="welcome__link-wrapper">
+                     <a target="_blank" href="#" class="welcome__link">Sign up with email</a>
+                     <a target="_blank" href="#" class="welcome__link">Sign up with Google</a>
+                  </div>
+                  <p class="welcome__text">Slack is free to try
+                     for as long as you’d like
+                  </p>
+               </div>
+               <img class="welcome__image" src="images/welcome-image.png" alt="interface" width="540" height="308" loading="lazy">
+            </div>
+         </div>
+      </section>
+      <section class="section bg-beige">
+         <div class="section__body container">
+            <div class="advantages">
+               <div class="advantages-partners">
+                  <p class="advantages-partners__text">
+                     Trusted by companies all over the world
+                  </p>
+                  <div class="advantages-partners__image-wrapper">
+                     <img 
+                        src="images/airbnb-logo.svg"
+                        alt="airbnb" 
+                        class="advantages-partners__image"
+                        height="60"
+                        loading="lazy"
+                     />
+                     <img 
+                        src="images/nasa-logo.svg"
+                        alt="nasa" 
+                        class="advantages-partners__image"
+                        height="60"
+                        loading="lazy"
+                     />
+                     <img 
+                        src="images/uber-logo.svg"
+                        alt="uber" 
+                        class="advantages-partners__image"
+                        height="60"
+                        loading="lazy"
+                     />
+                     <img 
+                        src="images/company-logo.svg"
+                        alt="company" 
+                        class="advantages-partners__image"
+                        height="60"
+                        loading="lazy"
+                     />
+                     <img 
+                        src="images/the-new-york-times-logo.svg"
+                        alt="the new york times" 
+                        class="advantages-partners__image"
+                        height="60"
+                        loading="lazy"
+                     />
+                     <img 
+                        src="images/etsy-logo.svg"
+                        alt="etsy" 
+                        class="advantages-partners__image"
+                        height="60"
+                        loading="lazy"
+                     />
+                  </div>
+               </div>
+               <div class="advantages-main">
+                  <article class="advantages-main__body">
+                     <h2 class="advantages-main__title">
+                        Bring your team together
+                     </h2>
+                     <p class="advantages-main__text">
+                        At the heart of Slack are channels: organized spaces
+                        for everyone and everything you need for work.
+                        In channels, it’s easier to connect across departments,
+                        offices, time zones and even other companies.
+                     </p>
+                     <a target="_blank" href="#" class="advantages-main__link">
+                        Learn more about channels
+                     </a>
+                  </article>
+                  <article class="advantages-main__body">
+                     <h2 class="advantages-main__title">
+                        Choose how you want to work
+                     </h2>
+                     <p class="advantages-main__text">
+                        In Slack, you’ve got all the flexibility to work when,
+                        where and how it’s best for you. You can easily chat,
+                        send audio and video clips, or hop on a huddle to
+                        talk things out live.
+                     </p>
+                     <a target="_blank" href="#" class="advantages-main__link">
+                        Learn more about flexible communication
+                     </a>
+                  </article>
+                  <article class="advantages-main__body">
+                     <h2 class="advantages-main__title">
+                        Move faster with your tools in one place
+                     </h2>
+                     <p class="advantages-main__text">
+                        With your other work apps connected to Slack, you
+                        can work faster by switching tabs less. And with
+                        powerful tools like Workflow Builder, you can
+                        automate away routine tasks.
+                     </p>
+                     <a target="_blank" href="#" class="advantages-main__link">
+                        Learn more about the Slack platform
+                     </a>
+                  </article>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="section">
+         <div class="section__body container">
+            <div class="trust">
+               <header class="trust__header">
+                  <h2 class="trust__header-title">
+                     Teams large and small rely on Slack
+                  </h2>
+                  <p class="trust__header-text">
+                     Slack securely scales up to support collaboration at the
+                     world’s biggest companies.
+                  </p>
+                  <div class="trust__header-link-wrapper">
+                     <a href="#" target="_blank" class="trust__header-link">
+                        Meet Slack for Enterprise
+                     </a>
+                     <a href="#" target="_blank" class="trust__header-link">
+                        Talk to sales
+                     </a>
+                  </div>
+               </header>
+               <div class="trust__main">
+                  <div class="trust__statistics">
+                     <div class="trust__statistics-body">
+                        <span class="trust__statistics-num">85%</span>
+                        <p class="trust__statistics-text">
+                           of users say Slack has improved communication
+                        </p>
+                     </div>
+                     <div class="trust__statistics-body">
+                        <span class="trust__statistics-num">86%</span>
+                        <p class="trust__statistics-text">
+                           feel their ability to work remotely has improved
+                        </p>
+                     </div>
+                     <div class="trust__statistics-body">
+                        <span class="trust__statistics-num">88%</span>
+                        <p class="trust__statistics-text">
+                           feel more connected to their teams
+                        </p>
+                     </div>
+                  </div>
+                  <div class="trust__quote">
+                     <blockquote cite="https://www.tbank.ru/mobile-operator/" class="trust__quote-text">
+                        <p>
+                           “We were able to create a large virtual network
+                           of employees that can communicate as though they
+                           are together. There was a lot of disruption in terms
+                           of where we worked, but in terms of how we
+                           worked—very little disruption.”
+                        </p>
+                     </blockquote>
+                     <address class="trust__quote-author">
+                        Mark Smith<br>
+                        Senior Technical Product Manager, T-Mobile
+                     </address>
+                     <a href="#" target="_blank" class="trust__quote-link">
+                        See more customer stories
+                     </a>
+                  </div>
+               </div>
+               <footer class="trust__footer">
+                  <p class="trust__footer-text">
+                     Weighted average. Based on 2,707 survey responses
+                     from weekly Slack users in the U.S., UK, Australia and
+                     Canada with a ± 2% margin of error at 95% CI (December 2021).
+                  </p>
+               </footer>
+            </div>
+         </div>
+      </section>
+      <section class="section bg-beige">
+         <div class="section__body container">
+            <div class="ways-working">
+               <h2 class="ways-working__title">
+                  Take a deeper dive into a new way to work
+               </h2>
+               <div class="ways-working__body">
+                  <ul class="ways-working__list">
+                     <li class="ways-working__list-item">
+                        <article class="ways-working__card">
+                           <div class="ways-working__card-body">
+                              <span class="ways-working__card-badge ways-working__card-badge--top">Collection</span>
+                              <h3 class="ways-working__card-title">
+                                    Slack as your digital HQ
+                              </h3>
+                              <img class="ways-working__card-image ways-working__card-image" src="images/ways-working-image-1.png" alt="" width="256" height="208" loading="lazy">
+                           </div>
+                           <div class="ways-working__card-body">
+                              <a href="#" target="_blank" class="ways-working__card-link ways-working__card-link--white">
+                                 See All
+                              </a>
+                           </div>
+                        </article>
+                     </li>
+                     <li class="ways-working__list-item">
+                        <article class="ways-working__card">
+                           <div class="ways-working__card-body">
+                              <img class="ways-working__card-image" src="images/ways-working-image-2.jpg" alt="" width="256" height="208" loading="lazy">
+                              <span class="ways-working__card-badge">
+                                 Resource
+                              </span>
+                              <h3 class="ways-working__card-title">
+                                 See how others are building their digital HQ
+                              </h3>
+                           </div>
+                           <div class="ways-working__card-body">
+                              <a href="#" target="_blank" class="ways-working__card-link">Read more</a>
+                           </div>
+                        </article>
+                     </li>
+                     <li class="ways-working__list-item">
+                        <article class="ways-working__card">
+                           <div class="ways-working__card-body">
+                              <img class="ways-working__card-image" src="images/ways-working-image-3.jpg" alt="" width="256" height="208" loading="lazy">
+                              <span class="ways-working__card-badge">Webinar</span>
+                              <h3 class="ways-working__card-title">
+                                 Win the battle for talent with a digital HQ
+                              </h3>
+                           </div>
+                           <div class="ways-working__card-body">
+                              <a href="#" target="_blank" class="ways-working__card-link">
+                                 Watch now
+                              </a>
+                           </div>
+                        </article>
+                     </li>
+                     <li class="ways-working__list-item">
+                        <article class="ways-working__card">
+                           <div class="ways-working__card-body">
+                              <img class="ways-working__card-image" src="images/ways-working-image-4.jpg" alt="" width="256" height="208" loading="lazy">
+                              <span class="ways-working__card-badge">E-book</span>
+                              <h3 class="ways-working__card-title">
+                                 Reinventing work: New imperatives for the future of working
+                              </h3>
+                           </div>
+                           <div class="ways-working__card-body">
+                              <a href="#" target="_blank" class="ways-working__card-link">
+                                 Get E-book
+                              </a>
+                           </div>
+                        </article>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="section bg-purple">
+         <div class="section__container container">
+            <div class="digital">
+               <h2 class="digital__title">Welcome to your new digital HQ</h2>
+               <div class="digital__link-wrapper">
+                  <a href="#" target="_blank" class="digital__link">Try for free</a>
+                  <a href="#" target="_blank" class="digital__link">Talk to sales</a>
+               </div>
+            </div>
+         </div>
+      </section>
+   </main>
+   <footer class="footer">
+      <div class="footer__container container">
+         <div class="footer__body">
+            <div class="footer__menu-body">
+               <div class="footer__logo-wrapper">
+                  <img 
+                     src="images/logo.svg" 
+                     alt="logo" 
+                     class="footer__logo"
+                     width="54"
+                     height="54"
+                     loading="lazy"
+                  />
+               </div>
+               <ul class="footer__menu-list">
+                  <li class="footer__menu-item">
+                     <span class="footer__menu-category">Why Slack?</span>
+                  </li>
+                  <li class="footer__menu-item">
+                     <a href="#" target="_blank" class="footer__menu-link">Slack vs. Email</a>
+                  </li>
+                  <li class="footer__menu-item">
+                     <a href="#" target="_blank" class="footer__menu-link">Channels</a>
+                  </li>
+                  <li class="footer__menu-item">
+                     <a href="#" target="_blank" class="footer__menu-link">Engagement</a>
+                  </li>
+                  <li class="footer__menu-item">
+                     <a href="#" target="_blank" class="footer__menu-link">Scale</a>
+                  </li>
+                  <li class="footer__menu-item">
+                     <a href="#" target="_blank" class="footer__menu-link">Watch the Demo</a>
+                  </li>
+               </ul>
+               <ul class="footer__menu-list">
+                  <li class="footer__menu-item">
+                     <span class="footer__menu-category">Product</span>
+                  </li>
+                  <li class="footer__menu-item">
+                     <a href="#" target="_blank" class="footer__menu-link">Features</a>
+                  </li>
+                  <li class="footer__menu-item">
+                     <a href="#" target="_blank" class="footer__menu-link">Integrations</a>
+                  </li>
+                  <li class="footer__menu-item">
+                     <a href="#" target="_blank" class="footer__menu-link">Enterprise</a>
+                  </li>
+                  <li class="footer__menu-item">
+                     <a href="#" target="_blank" class="footer__menu-link">Solutions</a>
+                  </li>
+                  <li class="footer__menu-item">
+                     <a href="#" target="_blank" class="footer__menu-link">Releases</a>
+                  </li>
+               </ul>
+               <ul class="footer__menu-list">
+                  <li class="footer__menu-item">
+                     <span class="footer__menu-category">Pricing</span>
+                  </li>
+                  <li class="footer__menu-item">
+                     <a href="#" target="_blank" class="footer__menu-link">Plans</a>
+                  </li>
+                  <li class="footer__menu-item">
+                     <a href="#" target="_blank" class="footer__menu-link">Paid vs. Free</a>
+                  </li>
+               </ul>
+               <ul class="footer__menu-list">
+                  <li class="footer__menu-item">
+                     <span class="footer__menu-category">Resources</span>
+                  </li>
+                  <li class="footer__menu-item">
+                     <a href="#" target="_blank" class="footer__menu-link">Partners</a>
+                  </li>
+                  <li class="footer__menu-item">
+                     <a href="#" target="_blank" class="footer__menu-link">Developers</a>
+                  </li>
+                  <li class="footer__menu-item">
+                     <a href="#" target="_blank" class="footer__menu-link">Community</a>
+                  </li>
+                  <li class="footer__menu-item">
+                     <a href="#" target="_blank" class="footer__menu-link">Apps</a>
+                  </li>
+                  <li class="footer__menu-item">
+                     <a href="#" target="_blank" class="footer__menu-link">Blog</a>
+                  </li>
+                  <li class="footer__menu-item">
+                     <a href="#" target="_blank" class="footer__menu-link">Help Center</a>
+                  </li>
+                  <li class="footer__menu-item">
+                     <a href="#" target="_blank" class="footer__menu-link">Events</a>
+                  </li>
+               </ul>
+               <ul class="footer__menu-list">
+                  <li class="footer__menu-item">
+                     <span class="footer__menu-category">Company</span>
+                  </li>
+                  <li class="footer__menu-item">
+                     <a href="#" target="_blank" class="footer__menu-link">About Us</a>
+                  </li>
+                  <li class="footer__menu-item">
+                     <a href="#" target="_blank" class="footer__menu-link">Leadership</a>
+                  </li>
+                  <li class="footer__menu-item">
+                     <a href="#" target="_blank" class="footer__menu-link">News</a>
+                  </li>
+                  <li class="footer__menu-item">
+                     <a href="#" target="_blank" class="footer__menu-link">Media Kit</a>
+                  </li>
+                  <li class="footer__menu-item">
+                     <a href="#" target="_blank" class="footer__menu-link">Careers</a>
+                  </li>
+               </ul>
+            </div>
+            <div class="footer__body-right">
+               <div class="footer__links-body">
+                  <a href="#" target="_blank" class="footer__link">Status</a>
+                  <a href="#" target="_blank" class="footer__link">Privacy</a>
+                  <a href="#" target="_blank" class="footer__link">Terms</a>
+                  <a href="#" target="_blank" class="footer__link">Your Privacy Choices</a>
+                  <a href="#" target="_blank" class="footer__link">Cookie Preferences</a>
+                  <a href="#" target="_blank" class="footer__link">Contact Us</a>
+                  <button type="button" class="footer__region">Change Region</button>
+               </div>
+               <a href="images/download-image.png" target="_blank" download class="footer__link-download">Download Slack</a>
+               <address class="footer__link-soc">
+                  <a href="#" target="_blank">
+                     <img src="images/twitter-icon.svg" alt="twitter" width="16" height="16" loading="lazy">
+                  </a>
+                  <a href="#" target="_blank" class="footer__link-soc">
+                     <img src="images/facebook-icon.svg" alt="facebook" width="16" height="16" loading="lazy">
+                  </a>
+                  <a href="#" target="_blank" class="footer__link-soc">
+                     <img src="images/youtube-icon.svg" alt="youtube" width="16" height="16" loading="lazy">
+                  </a>
+                  <a href="#" target="_blank" class="footer__link-soc">
+                     <img src="images/in-icon.svg" alt="in" width="16" height="16" loading="lazy">
+                  </a>
+               </address>
+            </div>
+            <p class="footer__copyright">
+               ©2023 Slack Technologies, LLC, a Salesforce company. All
+               rights reserved. Various trademarks held by their
+               respective owners.
+            </p>
+         </div>
+      </div>
+   </footer>
+   <dialog class="mobile-overlay" id="burgerMenu">
+      <div class="mobile-overlay__body">
+         <button onclick="burgerMenu.close()" class="mobile-overlay__close" type="button">
+            <span class="visually-hidden">close navigation menu</span>
+         </button>
+         <ul class="mobile-overlay__list">
+            <li class="mobile-overlay__item">
+               <a href="#" target="_blank" class="mobile-overlay__link">Product</a>
+            </li>
+            <li class="mobile-overlay__item">
+               <a href="#" target="_blank" class="mobile-overlay__link">Solutions</a>
+            </li>
+            <li class="mobile-overlay__item">
+               <a href="#" target="_blank" class="mobile-overlay__link">Enterprise</a>
+            </li>
+            <li class="mobile-overlay__item">
+               <a href="#" target="_blank" class="mobile-overlay__link">Resources</a>
+            </li>
+            <li class="mobile-overlay__item">
+               <a href="#" target="_blank" class="mobile-overlay__link">Pricing</a>
+            </li>
+         </ul>
+      </div>
+   </dialog>
+</body>
+</html>
